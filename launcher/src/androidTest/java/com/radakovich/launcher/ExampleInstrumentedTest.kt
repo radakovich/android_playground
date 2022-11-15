@@ -1,4 +1,4 @@
-package com.radakovich.android_playground
+package com.radakovich.launcher
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.radakovich.android_playground", appContext.packageName)
+        assertEquals("com.radakovich.launcher", appContext.packageName)
     }
 }

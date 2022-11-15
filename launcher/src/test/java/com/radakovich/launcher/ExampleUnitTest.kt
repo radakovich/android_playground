@@ -1,4 +1,4 @@
-package com.radakovich.android_playground
+package com.radakovich.launcher
 
 import org.junit.Test
 
