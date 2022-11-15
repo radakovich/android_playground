@@ -1,4 +1,4 @@
-package com.radakovich.launcher
+package com.radakovich.launcher.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.radakovich.launcher.ui.theme.Android_playgroundTheme
+import com.radakovich.launcher.presentation.ui.theme.Android_playgroundTheme
 
 class LauncherActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
